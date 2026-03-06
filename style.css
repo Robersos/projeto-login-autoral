@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(115, 255, 0), rgb(255, 10, 182));
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.form{
+
+     padding:  40px;
+     width: 250px;
+
+}
+
+.form h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.form button{
+    margin: 0 auto;
+    width: 35%;
+    padding: 5px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    border-color: black;
+    border-radius: 5px;
+    font-weight:bolder;
+    display: block;
+}
+
+.form label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  
+    
+    
+}
+
+.form input{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
